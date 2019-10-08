@@ -1,0 +1,2 @@
+Network address: cs5200-fall2019-niu.ctazkosnvcmg.us-east-2.rds.amazonaws.comUserName: ZehuaNiu
+HostName: cs5200Password: Cc710613!Port: 3306
