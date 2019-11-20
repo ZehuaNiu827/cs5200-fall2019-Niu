@@ -1,0 +1,14 @@
+{
+  "name": "cs5200_fall2019_niu_zehua_mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niu Zehua",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.7.12"
+  }
+}
