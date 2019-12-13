@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: zehuaniu
+Build-Jdk: 12.0.2
+Implementation-Title: cs5200_fall2019_Zehua_Niu_jpa
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: edu.northeastern.cs5200
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/cs5200_fall2019_Zehua_Niu_jpa
+Created-By: Maven Integration for Eclipse
+

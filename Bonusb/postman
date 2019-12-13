@@ -1,0 +1,455 @@
+GET /api/actor HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 510b353d-d53a-44b4-957f-17a533d339ca
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 4
+Date: Wed, 12 Dec 2018 21:02:59 GMT
+Via: 1.1 vegur
+
+null
+
+POST /api/actor HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 87ad4f65-26b7-4b23-b4c2-858db1ef21db
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 18
+Connection: keep-alive
+
+{name: 'Harrison'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 30
+Date: Wed, 12 Dec 2018 21:02:59 GMT
+Via: 1.1 vegur
+
+[{"name":"Harrison","id":"1"}]
+
+POST /api/actor HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: b93293ff-2684-475c-90fa-38cfc0351a9e
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 13
+Connection: keep-alive
+
+{name: 'Joe'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 25
+Date: Wed, 12 Dec 2018 21:02:59 GMT
+Via: 1.1 vegur
+
+[{"name":"Joe","id":"2"}]
+
+POST /api/actor HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 7f4c140b-f562-42dc-8a5c-2171ec104602
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 32
+Connection: keep-alive
+
+{first: 'Ryan',
+last: 'Goslyn'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 55
+Date: Wed, 12 Dec 2018 21:02:59 GMT
+Via: 1.1 vegur
+
+[{"name":null,"id":"3","first":"Ryan","last":"Goslyn"}]
+
+GET /api/actor HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: d8f7f726-7486-4ed9-b0af-cce475ad6433
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 158
+Date: Wed, 12 Dec 2018 21:03:00 GMT
+Via: 1.1 vegur
+
+[{"name":"Harrison","id":"1","first":null,"last":null},{"name":"Joe","id":"2","first":null,"last":null},{"name":null,"id":"3","first":"Ryan","last":"Goslyn"}]
+
+PUT /api/movie/432 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 0df18d51-54ea-48b1-898e-f49b762be8a8
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 16
+Connection: keep-alive
+
+{name: 'Joseph'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 4
+Date: Wed, 12 Dec 2018 21:03:00 GMT
+Via: 1.1 vegur
+
+null
+
+PUT /api/actor/432 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 53917ead-4eeb-4990-b272-397c6fd16548
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 16
+Connection: keep-alive
+
+{name: 'Joseph'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 4
+Date: Wed, 12 Dec 2018 21:03:00 GMT
+Via: 1.1 vegur
+
+null
+
+PUT /api/actor/2 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 59644c42-85f4-4cc2-96c4-606679579fa8
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 16
+Connection: keep-alive
+
+{name: 'Joseph'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 53
+Date: Wed, 12 Dec 2018 21:03:00 GMT
+Via: 1.1 vegur
+
+[{"name":"Joseph","id":"2","first":null,"last":null}]
+
+PUT /api/actor/2 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: ba48686f-047c-4cbd-b148-2b8aec791704
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 16
+Connection: keep-alive
+
+{nombre: 'Jose'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 69
+Date: Wed, 12 Dec 2018 21:03:00 GMT
+Via: 1.1 vegur
+
+[{"name":"Joseph","id":"2","first":null,"last":null,"nombre":"Jose"}]
+
+DELETE /api/movie/111 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: baa03fb0-e2e5-4db2-b66f-0779a8e90730
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 4
+Date: Wed, 12 Dec 2018 21:03:00 GMT
+Via: 1.1 vegur
+
+null
+
+DELETE /api/actor/111 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: c877d436-ec81-49b9-9910-4c9d25dccff1
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 4
+Date: Wed, 12 Dec 2018 21:03:01 GMT
+Via: 1.1 vegur
+
+null
+
+DELETE /api/actor/2 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 180d3620-9cdf-4be9-bc7e-aa1e5b380351
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Wed, 12 Dec 2018 21:03:01 GMT
+Via: 1.1 vegur
+
+success
+
+POST /api/movie HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 139d11fc-e4a6-4d72-ba99-1dfcf88c0c67
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 23
+Connection: keep-alive
+
+{title: 'Blade Runner'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 35
+Date: Wed, 12 Dec 2018 21:03:01 GMT
+Via: 1.1 vegur
+
+[{"title":"Blade Runner","id":"1"}]
+
+POST /api/movie HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: ea401014-f910-426a-a73a-6357c8e0ef99
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 21
+Connection: keep-alive
+
+{title: 'La La Land'}
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 33
+Date: Wed, 12 Dec 2018 21:03:01 GMT
+Via: 1.1 vegur
+
+[{"title":"La La Land","id":"2"}]
+
+POST /api/actor/1/movie/1 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 40208a6d-7111-4a46-9d83-09f87165f910
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 42
+Date: Wed, 12 Dec 2018 21:03:01 GMT
+Via: 1.1 vegur
+
+[{"actor.id":"1","movie.id":"1","id":"1"}]
+
+POST /api/actor/3/movie/1 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 93b337ab-bee8-477e-bda0-b3a79df4bad5
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 42
+Date: Wed, 12 Dec 2018 21:03:02 GMT
+Via: 1.1 vegur
+
+[{"actor.id":"3","movie.id":"1","id":"2"}]
+
+POST /api/actor/3/movie/2 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 29a6bab3-b7df-4403-9f5f-a2147c8a7c42
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 42
+Date: Wed, 12 Dec 2018 21:03:02 GMT
+Via: 1.1 vegur
+
+[{"actor.id":"3","movie.id":"2","id":"3"}]
+
+GET /api/actor/3/movie HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: bd71ff7c-96cf-4eff-b5f8-6029106aedc1
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 67
+Date: Wed, 12 Dec 2018 21:03:02 GMT
+Via: 1.1 vegur
+
+[{"title":"Blade Runner","id":"1"},{"title":"La La Land","id":"2"}]
+
+GET /api/movie/1/actor HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 375e42cf-e18c-41b2-87a0-92858c3845d7
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 137
+Date: Wed, 12 Dec 2018 21:03:02 GMT
+Via: 1.1 vegur
+
+[{"name":"Harrison","id":"1","first":null,"last":null,"nombre":null},{"name":null,"id":"3","first":"Ryan","last":"Goslyn","nombre":null}]
+
+DELETE /api/movie/1/actor/1 HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 4268305c-d517-44ff-93a5-9aea099a62b9
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Wed, 12 Dec 2018 21:03:02 GMT
+Via: 1.1 vegur
+
+success
+
+DELETE /api/actor/1/movie HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 36a37964-a3e4-4bf4-8372-4ff882b3e55b
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: cs5200.herokuapp.com
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Wed, 12 Dec 2018 21:03:02 GMT
+Via: 1.1 vegur
+
+success
